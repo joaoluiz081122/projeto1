@@ -5,7 +5,11 @@ const contenedor = document.querySelector('.slideshow')
 let imagensCriadas = []
 let contador = 0
 let quantidadeImagens = 20
-const criarObjetoImagem = src => { return { src } }
+const criarObjetoImagem = src => {
+    return {
+        src
+    }
+}
 const gerarImagens = (quantidadeImagens) => {
     for (let i = 1; i <= quantidadeImagens; i++) {
         imagensCriadas.push(criarObjetoImagem(`./img/${i}.jpg`))
@@ -45,22 +49,19 @@ contenedor.addEventListener('click', (event) => {
     const img = contenedor.querySelector('img')
     if (event.target === atras) {
         console.log('atras')
-        if(contador > 0){
+        if (contador > 0) {
             img.src = imagensCriadas[contador - 1].src
             contador--
-        }
-        else{
+        } else {
             img.src = imagensCriadas[imagensCriadas.length - 1].src
             contador = imagensCriadas.length - 1
         }
-    }
-    else if (event.target === adelante) {
+    } else if (event.target === adelante) {
         console.log('adelante')
-        if(contador < imagensCriadas.length - 1){
+        if (contador < imagensCriadas.length - 1) {
             img.src = imagensCriadas[contador + 1].src
             contador++
-        }
-        else{
+        } else {
             img.src = imagensCriadas[0].src
             contador = 0
         }
@@ -73,22 +74,19 @@ document.addEventListener('keyup', (event) => {
     const img = contenedor.querySelector('img')
     if (event.key === 'ArrowLeft') {
         console.log('atras')
-        if(contador > 0){
+        if (contador > 0) {
             img.src = imagensCriadas[contador - 1].src
             contador--
-        }
-        else{
+        } else {
             img.src = imagensCriadas[imagensCriadas.length - 1].src
             contador = imagensCriadas.length - 1
         }
-    }
-    else if (event.key === 'ArrowRight') {
+    } else if (event.key === 'ArrowRight') {
         console.log('adelante')
-        if(contador < imagensCriadas.length - 1){
+        if (contador < imagensCriadas.length - 1) {
             img.src = imagensCriadas[contador + 1].src
             contador++
-        }
-        else{
+        } else {
             img.src = imagensCriadas[0].src
             contador = 0
         }
