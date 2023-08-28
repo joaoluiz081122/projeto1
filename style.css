@@ -1,11 +1,11 @@
 .header {
-    background-color: blue;
-    display: flex;
-    align-items: center;
+    background-color: rgba(13, 225, 253, 0.493);
+    align-items:center;
 }
+
 body {
     font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
+    background-color: #00f7ff;
     margin: 0;
     padding: 0;
 }
@@ -13,22 +13,23 @@ body {
 .restaurant-list {
     list-style-type: none;
     padding: 0;
+    display:flexbox;
     align-items: center;
 }
 
 .restaurant-link {
     text-decoration: none;
-    color: white;
+    color: rgb(0, 0, 0);
     display: flex;
     align-items: center;
     padding: 10px;
-    background-color: #333;
-    border-bottom: 1px solid #666;
+    background-color: #ffffff62;
+    border-bottom: 1px solid #2006b100;
     transition: background-color 0.3s;
 }
 
 .restaurant-link:hover {
-    background-color: #555;
+    background-color: #00eeff88;
 }
 
 .restaurant-name {
@@ -39,3 +40,4 @@ body {
     width: 30px;
     height: 30px;
 }
+
