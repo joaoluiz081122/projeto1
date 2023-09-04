@@ -33,7 +33,7 @@ document.querySelectorAll('.galeria img').forEach(img => {
 document.addEventListener('click', (event) => {
     if (event.target.className === 'overlay' || event.target.className === 'btn_cerrar') {
         overlay.style.opacity = 0
-        overlay.style.visibility = 'hidden'
+        overlay.style.visibility = 
     }
 })
 document.addEventListener('keyup', function (e) {
