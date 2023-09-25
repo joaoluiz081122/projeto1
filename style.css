@@ -10,7 +10,7 @@ body {
     align-items: center;
     justify-content: center;
     font-family: sans-serif;
-    background-color: rgb(173, 173, 173);
+    background-color: rgb(0, 238, 255);
 }
 
 .player {
@@ -22,13 +22,13 @@ body {
     width: 100%;
     height: 500px;
     margin: 0 10px;
-    box-shadow: 0 1px 10px gray;
+    box-shadow: 0 1px 10px rgb(0, 0, 0);
     padding: 10px;
     border-radius: 5px;
 }
 
 .logo {
-    background-color: #f7f7f7;
+    background-color: #ffffff;
     width: 100%;
     height: 50%;
     display: flex;
@@ -51,7 +51,7 @@ body {
 
 .controls button {
     border: none;
-    background-color: white;
+    background-color: rgb(24, 24, 24);
     cursor: pointer;
 }
 
@@ -59,14 +59,14 @@ body {
     font-size: 60px;
     padding: 5px;
     border-radius: 50%;
-    background-color: #f7f7f7;
+    background-color: #00eeffb2;
     transition: all .2s;
 }
 button{
     border-radius: 50%;
 }
 .controls i:hover {
-    background-color: lightgray;
+    background-color: rgb(0, 0, 0);
 }
 
 .time {
@@ -86,7 +86,7 @@ button{
 
 .progress-bar {
     height: 8px;
-    background-color: #ddd;
+    background-color: #0096aa;
     cursor: pointer;
     margin-bottom: 5px;
     border-radius: 5px;
