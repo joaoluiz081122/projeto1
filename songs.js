@@ -1,41 +1,41 @@
 export default [{
-        src: "./musicas/seven.mp3",
-        name: "Seven - Jeon JungKook",
+        src: "Tokyo Drift.mp3",
+        name: "Tokyo Drift",
     },
     {
-        src: "./musicas/fever.mp3",
-        name: "Fever - Enhypen",
+        src: "Freddie Dredd - Devil's Work.mp3",
+        name: "Freddie Dredd - Devil's Work",
     },
     {
-        src: "./musicas/mirros.mp3",
-        name: "Mirrors - Justin Timberlake",
+        src: "Freddie Dredd - Limbo.mp3",
+        name: "Freddie Dredd - Limbo",
     },
     {
-        src: "./musicas/thehills.mp3",
-        name: "The Hills x The Color Violet x Creepin",
+        src: "Godzilla (feat. Juice WRLD).mp3",
+        name: "Godzilla (feat. Juice WRLD)",
     },
     {
-        src: "./musicas/goldenhour.mp3",
-        name: "Golden Hour - JVKE",
+        src: "Ice Cube - It Was A Good Day.mp3",
+        name: "Ice Cube - It Was A Good Day",
     },
     {
-        src: "./musicas/daylight.mp3",
-        name: "Daylight -  David Kushner",
+        src: "INTERWORLD - METAMORPHOSIS (1).mp3",
+        name: "INTERWORLD - METAMORPHOSIS (1)",
     },
     {
-        src: "./musicas/congratulations.mp3",
-        name: "Congratulations -  Post Malone",
+        src: "Lord Lorenz - MurderCaust.mp3",
+        name: "Lord Lorenz - MurderCaust",
     },
     {
-        src: "./musicas/lastfriday.mp3",
-        name: "Last Friday Night - Katy Perry",
+        src: "Mina do Condomínio.mp3",
+        name: "Mina do Condomínio",
     },
     {
-        src: "./musicas/leehong.mp3",
-        name: "Still Love You -  Lee Hong Gi",
+        src: "Rollin'.mp3",
+        name: "Rollin'",
     },
     {
-        src: "./musicas/strangervibes.mp3",
-        name: "Strange Vibes - DJ Boss",
+        src: "SICKO MODE.mp3",
+        name: "SICKO MODE",
     },
 ];
