@@ -9,7 +9,15 @@ const volumeSlider = document.getElementById("volumeSlider");
 const songs = [
     { title: "Música 1", source: "song1.mp3", image: "song1.jpg" },
     { title: "Música 2", source: "song2.mp3", image: "song2.jpg" },
-    // Adicione mais músicas aqui
+        { title: "Música 1", source: "song1.mp3", image: "song1.jpg" },
+    { title: "Música 2", source: "song2.mp3", image: "song2.jpg" },
+        { title: "Música 1", source: "song1.mp3", image: "song1.jpg" },
+    { title: "Música 2", source: "song2.mp3", image: "song2.jpg" },
+        { title: "Música 1", source: "song1.mp3", image: "song1.jpg" },
+    { title: "Música 2", source: "song2.mp3", image: "song2.jpg" },
+        { title: "Música 1", source: "song1.mp3", image: "song1.jpg" },
+    { title: "Música 2", source: "song2.mp3", image: "song2.jpg" },
+
 ];
 
 let currentSongIndex = -1;
@@ -25,11 +33,11 @@ function loadSong(index) {
     audio.src = song.source;
     audio.load();
 
-    // Atualize a imagem do reprodutor
+
     const audioPlayer = document.querySelector(".audio-player h2");
     audioPlayer.style.backgroundImage = `url(${song.image})`;
 
-    // Atualize a lista de reprodução para indicar qual música está tocando
+
     const playlistItems = document.querySelectorAll("#playlist li");
     playlistItems.forEach((item, i) => {
         if (i === index) {
@@ -75,5 +83,4 @@ prevBtn.addEventListener("click", prevSong);
 nextBtn.addEventListener("click", nextSong);
 volumeSlider.addEventListener("input", updateVolume);
 
-// Carregue a primeira música por padrão
 loadSong(0);
