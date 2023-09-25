@@ -145,7 +145,6 @@ input[type="range"]::-moz-range-track {
 }
 
 .audio-player h2 {
-    background-image: url("default-song-image.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
