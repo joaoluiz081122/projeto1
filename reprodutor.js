@@ -7,16 +7,16 @@ const nextBtn = document.getElementById("nextBtn");
 const volumeSlider = document.getElementById("volumeSlider");
 
 const songs = [
-    { title: "Música 1", source: "song1.mp3", image: "song1.jpg" },
-    { title: "Música 2", source: "song2.mp3", image: "song2.jpg" },
-        { title: "Música 1", source: "song1.mp3", image: "song1.jpg" },
-    { title: "Música 2", source: "song2.mp3", image: "song2.jpg" },
-        { title: "Música 1", source: "song1.mp3", image: "song1.jpg" },
-    { title: "Música 2", source: "song2.mp3", image: "song2.jpg" },
-        { title: "Música 1", source: "song1.mp3", image: "song1.jpg" },
-    { title: "Música 2", source: "song2.mp3", image: "song2.jpg" },
-        { title: "Música 1", source: "song1.mp3", image: "song1.jpg" },
-    { title: "Música 2", source: "song2.mp3", image: "song2.jpg" },
+    { title: "Freddie Dredd - Limbo", source: "Freddie Dredd - Limbo.mp3", image: "limbo.jpg" },
+    { title: "Mina do Condomínio", source: "Mina do Condomínio.mp3", image: "mina de condominio.jfif" },
+        { title: "Rollin'", source: "Rollin'.mp3", image: "Rollin.jpg" },
+    { title: "Ice Cube - It Was A Good Day", source: "Ice Cube - It Was A Good Day.mp3", image: "it was a good day.jpg" },
+        { title: "INTERWORLD - METAMORPHOSIS (1)", source: "INTERWORLD - METAMORPHOSIS (1).mp3", image: "metamorphosis.jfif" },
+    { title: "Lord Lorenz - MurderCaust", source: "Lord Lorenz - MurderCaust.mp3", image: "murdercaust.jfif" },
+        { title: "Godzilla (feat. Juice WRLD)", source: "Godzilla (feat. Juice WRLD).mp3", image: "godzilla.jpg" },
+    { title: "Tokyo Drift", source: "Tokyo Drift.mp3", image: "tokyo drift.jpg" },
+        { title: "Freddie Dredd - Devil's Work", source: "Freddie Dredd - Devil's Work.mp3", image: "devils work.jfif" },
+    { title: "SICKO MODE", source: "SICKO MODE.mp3", image: "sicko mode.jpg" },
 
 ];
 
